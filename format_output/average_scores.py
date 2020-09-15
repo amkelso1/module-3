@@ -7,6 +7,9 @@ program purpose: get an average of scores input
 """
 
 
-def average():
-    pass
+
+if __name__ == '__main__':
+    last_name = input()
+    first_name = input()
+    age = input()
 

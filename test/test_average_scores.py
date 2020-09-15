@@ -1,13 +1,6 @@
-"""
-author: alex kelso
-program: average_scores.py
-date: 9/14/2020
-
-program purpose: (test) get an average of scores input
-"""
-
 import unittest
-from format_output import average_scores
+from unittest import mock
+from format_output import average_scores as topic2
 
 
 class MyTestCase(unittest.TestCase):
