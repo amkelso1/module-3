@@ -7,9 +7,19 @@ program purpose: get an average of scores input
 """
 
 
+def average():
+    score1 = input("Enter Grade: ")
+    score2 = input("Enter Grade: ")
+    score3 = input("Enter Grade: ")
+    return (int(score1) + int(score2) + int(score3))/3
+
 
 if __name__ == '__main__':
-    last_name = input()
-    first_name = input()
-    age = input()
+    first_name = input('What\'s your first name?: ')
+    last_name = input('What\'s your last name?: ')
+    age = input('How old are you?: ')
+
+    average_scores = average()
+    print('{} {}, Age: {}, Average Grade: {}'.format(first_name, last_name, age, average_scores))
+
 
